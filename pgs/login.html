@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../pgs/styles/style1.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    
+    <div class="main-login">
+        <div class="left-login">
+            <h1>Faça login<br><span>e acesse todo o conteudo</span></h1>
+            <img src="../pgs/styles/security-animate.svg" class="banner-gif" alt="Animação login">
+        </div>
+        <div class="right-login">
+            <div class="card-login">
+                <h1>LOG<span>IN</span></h1>
+
+                <form action="#" method="post" autocomplete="on">
+                    <div class="textfield">
+                        <label for="usuario">Usuário</label>
+                        <input type="text" name="usuario" id="usuario" placeholder="Nome de Usuário" autocomplete="nickname" required maxlength="15">
+                    </div>
+                    <div class="textfield">
+                        <label for="senha">Senha</label>
+                        <input type="password" name="senha" id="senha" placeholder="Senha" autocomplete="current-password" required minlength="6" maxlength="15">
+                    </div>
+
+                    <div class="btn">
+
+                        <div class="btn-text">
+                            <label class="btn-fgt"><a href="#">Esqueci a senha</a></label>
+                            <label class="btn-fgt"><a href="../pgs/register.html">Cadastre-se</a></label>
+                        </div>
+
+                        <input type="submit" class="btn-login" value="Login">
+                    </div>
+                </form>
+                
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

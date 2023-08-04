@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="../pgs/styles/style2.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    
+    <div class="main-login">
+        <div class="left-login">
+            <h1>Cadastre-se<br><span>e seja membro!</span></h1>
+            <img src="../pgs/styles/team-work-animate.svg" class="banner-gif" alt="Animação login">
+        </div>
+        <div class="right-login">
+            <div class="card-login">
+                <h1>CADA<span>STRO</span></h1>
+
+                <form action="#" method="post" autocomplete="on">
+
+                    <div class="form-elements">
+                        <div class="textfield">
+                            <label for="usuario">Nome</label>
+                            <input type="text" name="usuario" id="usuario" placeholder="Nome de Usuário" autocomplete="nickname" required maxlength="15">
+                        </div>
+                        <div class="textfield">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" placeholder="Email" autocomplete="email" maxlength="50">
+                        </div>
+                        <div class="textfield">
+                            <label for="tel">Telefone</label>
+                            <input type="tel" name="tel" id="tel" placeholder="Telefone" autocomplete="tel-national" required maxlength="14">
+                        </div>
+                        <div class="textfield">
+                            <label for="idade">Idade</label>
+                            <input type="number" name="idade" id="idade" placeholder="Idade" autocomplete="cc-number" required maxlength="3">
+                        </div>
+                    </div>  
+
+                        <div class="textfield text-senha">
+                            <label for="senha">Senha</label>
+                            <input type="password" name="senha" id="senha" placeholder="Senha" autocomplete="current-password" required minlength="6" maxlength="15">
+                        </div>
+                    
+
+                    <div class="btn">
+                        <div class="btn-text">
+                            <label class="btn-fgt"><a href="../pgs/login.html">Fazer login</a></label>
+                        </div>
+
+                        <input type="submit" class="btn-login" value="Cadastrar">
+                    </div>
+                </form>
+                
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
